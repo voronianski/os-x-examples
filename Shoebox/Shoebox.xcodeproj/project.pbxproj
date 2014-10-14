@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A719A8C19EDC41C00D4D355 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A719A8B19EDC41C00D4D355 /* main.m */; };
+		2A719A8F19EDC41C00D4D355 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A719A8E19EDC41C00D4D355 /* Document.m */; };
+		2A719A9219EDC41C00D4D355 /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A719A9019EDC41C00D4D355 /* Document.xib */; };
+		2A719A9419EDC41C00D4D355 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A719A9319EDC41C00D4D355 /* Images.xcassets */; };
+		2A719A9719EDC41C00D4D355 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A719A9519EDC41C00D4D355 /* MainMenu.xib */; };
+		2A719AA319EDC41C00D4D355 /* ShoeboxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A719AA219EDC41C00D4D355 /* ShoeboxTests.m */; };
+		2A719AAE19EDC84200D4D355 /* DocumentItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A719AAD19EDC84200D4D355 /* DocumentItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A719A9D19EDC41C00D4D355 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A719A7E19EDC41C00D4D355 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A719A8519EDC41C00D4D355;
+			remoteInfo = Shoebox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A719A8619EDC41C00D4D355 /* Shoebox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shoebox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A719A8A19EDC41C00D4D355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A719A8B19EDC41C00D4D355 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A719A8D19EDC41C00D4D355 /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		2A719A8E19EDC41C00D4D355 /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		2A719A9119EDC41C00D4D355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
+		2A719A9319EDC41C00D4D355 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2A719A9619EDC41C00D4D355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2A719A9C19EDC41C00D4D355 /* ShoeboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoeboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A719AA119EDC41C00D4D355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A719AA219EDC41C00D4D355 /* ShoeboxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoeboxTests.m; sourceTree = "<group>"; };
+		2A719AAC19EDC84200D4D355 /* DocumentItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentItem.h; sourceTree = "<group>"; };
+		2A719AAD19EDC84200D4D355 /* DocumentItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A719A8319EDC41C00D4D355 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A719A9919EDC41C00D4D355 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A719A7D19EDC41C00D4D355 = {
+			isa = PBXGroup;
+			children = (
+				2A719A8819EDC41C00D4D355 /* Shoebox */,
+				2A719A9F19EDC41C00D4D355 /* ShoeboxTests */,
+				2A719A8719EDC41C00D4D355 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A719A8719EDC41C00D4D355 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A719A8619EDC41C00D4D355 /* Shoebox.app */,
+				2A719A9C19EDC41C00D4D355 /* ShoeboxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A719A8819EDC41C00D4D355 /* Shoebox */ = {
+			isa = PBXGroup;
+			children = (
+				2A719A8D19EDC41C00D4D355 /* Document.h */,
+				2A719A8E19EDC41C00D4D355 /* Document.m */,
+				2A719A9019EDC41C00D4D355 /* Document.xib */,
+				2A719AAC19EDC84200D4D355 /* DocumentItem.h */,
+				2A719AAD19EDC84200D4D355 /* DocumentItem.m */,
+				2A719A9319EDC41C00D4D355 /* Images.xcassets */,
+				2A719A9519EDC41C00D4D355 /* MainMenu.xib */,
+				2A719A8919EDC41C00D4D355 /* Supporting Files */,
+			);
+			path = Shoebox;
+			sourceTree = "<group>";
+		};
+		2A719A8919EDC41C00D4D355 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A719A8A19EDC41C00D4D355 /* Info.plist */,
+				2A719A8B19EDC41C00D4D355 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A719A9F19EDC41C00D4D355 /* ShoeboxTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A719AA219EDC41C00D4D355 /* ShoeboxTests.m */,
+				2A719AA019EDC41C00D4D355 /* Supporting Files */,
+			);
+			path = ShoeboxTests;
+			sourceTree = "<group>";
+		};
+		2A719AA019EDC41C00D4D355 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A719AA119EDC41C00D4D355 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A719A8519EDC41C00D4D355 /* Shoebox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A719AA619EDC41C00D4D355 /* Build configuration list for PBXNativeTarget "Shoebox" */;
+			buildPhases = (
+				2A719A8219EDC41C00D4D355 /* Sources */,
+				2A719A8319EDC41C00D4D355 /* Frameworks */,
+				2A719A8419EDC41C00D4D355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shoebox;
+			productName = Shoebox;
+			productReference = 2A719A8619EDC41C00D4D355 /* Shoebox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A719A9B19EDC41C00D4D355 /* ShoeboxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A719AA919EDC41C00D4D355 /* Build configuration list for PBXNativeTarget "ShoeboxTests" */;
+			buildPhases = (
+				2A719A9819EDC41C00D4D355 /* Sources */,
+				2A719A9919EDC41C00D4D355 /* Frameworks */,
+				2A719A9A19EDC41C00D4D355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A719A9E19EDC41C00D4D355 /* PBXTargetDependency */,
+			);
+			name = ShoeboxTests;
+			productName = ShoeboxTests;
+			productReference = 2A719A9C19EDC41C00D4D355 /* ShoeboxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A719A7E19EDC41C00D4D355 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Dmitri Voronianski";
+				TargetAttributes = {
+					2A719A8519EDC41C00D4D355 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					2A719A9B19EDC41C00D4D355 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 2A719A8519EDC41C00D4D355;
+					};
+				};
+			};
+			buildConfigurationList = 2A719A8119EDC41C00D4D355 /* Build configuration list for PBXProject "Shoebox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A719A7D19EDC41C00D4D355;
+			productRefGroup = 2A719A8719EDC41C00D4D355 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A719A8519EDC41C00D4D355 /* Shoebox */,
+				2A719A9B19EDC41C00D4D355 /* ShoeboxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A719A8419EDC41C00D4D355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A719A9219EDC41C00D4D355 /* Document.xib in Resources */,
+				2A719A9419EDC41C00D4D355 /* Images.xcassets in Resources */,
+				2A719A9719EDC41C00D4D355 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A719A9A19EDC41C00D4D355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A719A8219EDC41C00D4D355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A719A8F19EDC41C00D4D355 /* Document.m in Sources */,
+				2A719A8C19EDC41C00D4D355 /* main.m in Sources */,
+				2A719AAE19EDC84200D4D355 /* DocumentItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A719A9819EDC41C00D4D355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A719AA319EDC41C00D4D355 /* ShoeboxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A719A9E19EDC41C00D4D355 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A719A8519EDC41C00D4D355 /* Shoebox */;
+			targetProxy = 2A719A9D19EDC41C00D4D355 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A719A9019EDC41C00D4D355 /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A719A9119EDC41C00D4D355 /* Base */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		2A719A9519EDC41C00D4D355 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A719A9619EDC41C00D4D355 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A719AA419EDC41C00D4D355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2A719AA519EDC41C00D4D355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2A719AA719EDC41C00D4D355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Shoebox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2A719AA819EDC41C00D4D355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Shoebox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2A719AAA19EDC41C00D4D355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShoeboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shoebox.app/Contents/MacOS/Shoebox";
+			};
+			name = Debug;
+		};
+		2A719AAB19EDC41C00D4D355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShoeboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shoebox.app/Contents/MacOS/Shoebox";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A719A8119EDC41C00D4D355 /* Build configuration list for PBXProject "Shoebox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A719AA419EDC41C00D4D355 /* Debug */,
+				2A719AA519EDC41C00D4D355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A719AA619EDC41C00D4D355 /* Build configuration list for PBXNativeTarget "Shoebox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A719AA719EDC41C00D4D355 /* Debug */,
+				2A719AA819EDC41C00D4D355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2A719AA919EDC41C00D4D355 /* Build configuration list for PBXNativeTarget "ShoeboxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A719AAA19EDC41C00D4D355 /* Debug */,
+				2A719AAB19EDC41C00D4D355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A719A7E19EDC41C00D4D355 /* Project object */;
+}
